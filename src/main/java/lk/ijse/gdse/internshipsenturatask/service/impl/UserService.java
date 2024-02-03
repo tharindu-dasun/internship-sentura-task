@@ -1,9 +1,8 @@
 package lk.ijse.gdse.internshipsenturatask.service.impl;
 
-import org.springframework.stereotype.Service;
-
 @Service
-public class UserServiceImpl {
+public interface UserService implements UserService{
+
     @Override
     public void SaveUser() {
 
